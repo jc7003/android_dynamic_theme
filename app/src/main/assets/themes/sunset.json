@@ -1,0 +1,17 @@
+{
+  "id": "sunset",
+  "version": 2,
+  "colors": {
+    "light": {
+      "primary": "#C2410C",
+      "onPrimary": "#FFFFFF",
+      "secondary": "#9D174D",
+      "onSecondary": "#FFFFFF",
+      "background": "#FFF8F3",
+      "onBackground": "#2B1700",
+      "surface": "#FFE8D6",
+      "onSurface": "#2B1700"
+    }
+  },
+  "shape": { "cornerRadiusDp": 28 }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Design tokens: the ONLY place hex values / raw sizes may appear.
+  themes.xml maps theme attrs to these tokens; layouts and styles use ?attr/... only.
+  At runtime (API 30+) a ResourcesLoader overrides these values from the JSON theme,
+  see theme/tokens/TokenThemeManager.kt. Keep defaults in sync with DefaultTheme.kt.
+-->
+<resources>
+    <color name="token_primary">#6750A4</color>
+    <color name="token_on_primary">#FFFFFF</color>
+    <color name="token_secondary">#625B71</color>
+    <color name="token_on_secondary">#FFFFFF</color>
+    <color name="token_background">#FFFBFE</color>
+    <color name="token_on_background">#1C1B1F</color>
+    <color name="token_surface">#F3EDF7</color>
+    <color name="token_on_surface">#1C1B1F</color>
+    <color name="token_error">#B3261E</color>
+    <color name="token_on_error">#FFFFFF</color>
+
+    <dimen name="token_corner_radius">20dp</dimen>
+</resources>

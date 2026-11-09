@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default text color follows the tokens (otherwise Material's day/night default is used). -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:alpha="0.38" android:color="@color/token_on_background" android:state_enabled="false" />
+    <item android:color="@color/token_on_background" />
+</selector>

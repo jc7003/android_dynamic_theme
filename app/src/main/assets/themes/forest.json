@@ -1,0 +1,27 @@
+{
+  "id": "forest",
+  "version": 1,
+  "colors": {
+    "light": {
+      "primary": "#990000",
+      "onPrimary": "#FFFFFF",
+      "secondary": "#8B5E34",
+      "onSecondary": "#FFFFFF",
+      "background": "#F7FBF1",
+      "onBackground": "#1A1C18",
+      "surface": "#E4EFD9",
+      "onSurface": "#1A1C18"
+    },
+    "dark": {
+      "primary": "#94D68C",
+      "onPrimary": "#003A03",
+      "secondary": "#E6BD8F",
+      "onSecondary": "#482A06",
+      "background": "#1A1C18",
+      "onBackground": "#E2E3DC",
+      "surface": "#2A3326",
+      "onSurface": "#E2E3DC"
+    }
+  },
+  "shape": { "cornerRadiusDp": 4 }
+}

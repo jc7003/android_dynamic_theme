@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme attr pointing at the default StatusBadgeView style (like toolbarStyle). -->
+    <attr name="statusBadgeStyle" format="reference" />
+
+    <declare-styleable name="StatusBadgeView">
+        <attr name="statusBadgeColor" format="color" />
+        <attr name="statusBadgeTextColor" format="color" />
+        <attr name="statusBadgeCornerRadius" format="dimension" />
+    </declare-styleable>
+</resources>

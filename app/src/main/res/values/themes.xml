@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Every color/shape attr points at a token in tokens.xml. Nothing here is a raw value,
+      so overriding the tokens at runtime re-themes every widget, style and selector.
+    -->
+    <style name="Theme.DynamicTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/token_primary</item>
+        <item name="colorOnPrimary">@color/token_on_primary</item>
+        <item name="colorPrimaryContainer">@color/token_primary</item>
+        <item name="colorOnPrimaryContainer">@color/token_on_primary</item>
+
+        <item name="colorSecondary">@color/token_secondary</item>
+        <item name="colorOnSecondary">@color/token_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/token_secondary</item>
+        <item name="colorOnSecondaryContainer">@color/token_on_secondary</item>
+        <item name="colorTertiary">@color/token_secondary</item>
+        <item name="colorOnTertiary">@color/token_on_secondary</item>
+
+        <item name="android:colorBackground">@color/token_background</item>
+        <item name="colorOnBackground">@color/token_on_background</item>
+        <item name="colorSurface">@color/token_background</item>
+        <item name="colorOnSurface">@color/token_on_surface</item>
+        <item name="colorSurfaceVariant">@color/token_surface</item>
+        <item name="colorOnSurfaceVariant">@color/token_on_surface</item>
+        <item name="colorSurfaceContainerLowest">@color/token_surface</item>
+        <item name="colorSurfaceContainerLow">@color/token_surface</item>
+        <item name="colorSurfaceContainer">@color/token_surface</item>
+        <item name="colorSurfaceContainerHigh">@color/token_surface</item>
+        <item name="colorSurfaceContainerHighest">@color/token_surface</item>
+        <item name="colorSurfaceInverse">@color/token_on_surface</item>
+        <item name="colorOnSurfaceInverse">@color/token_surface</item>
+        <item name="colorOutline">@color/token_outline</item>
+        <item name="colorOutlineVariant">@color/token_outline_variant</item>
+
+        <item name="android:textColorPrimary">@color/token_text_primary</item>
+
+        <item name="android:textColorSecondary">@color/token_text_secondary</item>
+
+        <item name="android:textColorHint">@color/token_text_secondary</item>
+
+
+        <item name="colorError">@color/token_error</item>
+        <item name="colorOnError">@color/token_on_error</item>
+
+        <item name="android:statusBarColor">@color/token_primary</item>
+        <item name="android:navigationBarColor">@color/token_background</item>
+
+        <item name="shapeAppearanceCornerExtraSmall">@style/ShapeAppearance.App.Token</item>
+        <item name="shapeAppearanceCornerSmall">@style/ShapeAppearance.App.Token</item>
+        <item name="shapeAppearanceCornerMedium">@style/ShapeAppearance.App.Token</item>
+        <item name="shapeAppearanceCornerLarge">@style/ShapeAppearance.App.Token</item>
+        <item name="shapeAppearanceCornerExtraLarge">@style/ShapeAppearance.App.Token</item>
+
+        <item name="materialCardViewStyle">@style/Widget.App.Card</item>
+
+        <item name="statusBadgeStyle">@style/Widget.App.StatusBadge</item>
+
+        <item name="toolbarStyle">@style/Widget.App.Toolbar</item>
+
+        <!-- M3 buttons default to a 50% pill; route them to the token radius. -->
+
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+
+        <item name="materialButtonOutlinedStyle">@style/Widget.App.Button.Outlined</item>
+    </style>
+</resources>

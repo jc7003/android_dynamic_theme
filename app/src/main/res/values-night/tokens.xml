@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="token_primary">#D0BCFF</color>
+    <color name="token_on_primary">#381E72</color>
+    <color name="token_secondary">#CCC2DC</color>
+    <color name="token_on_secondary">#332D41</color>
+    <color name="token_background">#1C1B1F</color>
+    <color name="token_on_background">#E6E1E5</color>
+    <color name="token_surface">#2B2930</color>
+    <color name="token_on_surface">#E6E1E5</color>
+    <color name="token_error">#F2B8B5</color>
+    <color name="token_on_error">#601410</color>
+</resources>

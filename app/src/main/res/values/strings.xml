@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dynamic Theme</string>
+    <string name="pick_theme">Pick a theme from the API</string>
+    <string name="theme_info">Active theme: %1$s (v%2$d) · corner radius %3$d dp</string>
+    <string name="theme_error">Couldn\'t load theme: %1$s. Keeping the current one.</string>
+    <string name="theme_ocean">Ocean</string>
+    <string name="theme_forest">Forest</string>
+    <string name="theme_sunset">Sunset</string>
+    <string name="theme_broken">Broken JSON</string>
+    <string name="card_title">Sample card</string>
+    <string name="card_body">Every color and corner on this screen comes from the JSON theme. Switch to dark mode to see the dark palette.</string>
+    <string name="input_hint">Your name</string>
+    <string name="simulate_failure">Simulate API failure</string>
+    <string name="accept_terms">Sample checkbox</string>
+    <string name="open_second">Open second screen</string>
+    <string name="show_dialog">Show dialog</string>
+    <string name="refresh">Refresh theme</string>
+    <string name="dialog_title">Themed dialog</string>
+    <string name="dialog_message">This dialog uses the \"%1$s\" theme.</string>
+    <string name="second_title">Second screen</string>
+    <string name="second_body">This screen has no theme code of its own. It extends BaseThemedActivity, so the API theme applies here too.</string>
+    <string name="back">Back</string>
+</resources>

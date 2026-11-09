@@ -1,0 +1,31 @@
+{
+  "id": "ocean",
+  "version": 3,
+  "colors": {
+    "light": {
+      "primary": "#0061A4",
+      "onPrimary": "#FFFFFF",
+      "secondary": "#006A6A",
+      "onSecondary": "#FFFFFF",
+      "background": "#F8FDFF",
+      "onBackground": "#001F2A",
+      "surface": "#E3F2FD",
+      "onSurface": "#001F2A",
+      "error": "#BA1A1A",
+      "onError": "#FFFFFF"
+    },
+    "dark": {
+      "primary": "#9ECAFF",
+      "onPrimary": "#003258",
+      "secondary": "#4CDADA",
+      "onSecondary": "#003737",
+      "background": "#001F2A",
+      "onBackground": "#C6E7FF",
+      "surface": "#0B3446",
+      "onSurface": "#C6E7FF",
+      "error": "#FFB4AB",
+      "onError": "#690005"
+    }
+  },
+  "shape": { "cornerRadiusDp": 12 }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "broken",
+  "version": 1,
+  "colors": {
+    "light": { "primary": "not-a-color" }
+  }
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Widget styles: reference theme attrs only, never raw values. -->
+<resources>
+    <style name="ShapeAppearance.App.Token" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/token_corner_radius</item>
+    </style>
+
+    <style name="Widget.App.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+        <item name="subtitleTextColor">?attr/colorOnPrimary</item>
+        <item name="navigationIconTint">?attr/colorOnPrimary</item>
+    </style>
+
+    <!-- Custom view style: defaults are theme attrs, so it follows the tokens. -->
+
+    <style name="Widget.App.StatusBadge" parent="">
+
+        <item name="statusBadgeColor">?attr/colorSecondary</item>
+
+        <item name="statusBadgeTextColor">?attr/colorOnSecondary</item>
+
+        <item name="statusBadgeCornerRadius">@dimen/token_corner_radius</item>
+
+    </style>
+
+
+    <style name="Widget.App.Card" parent="Widget.Material3.CardView.Filled" />
+
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerMedium</item>
+
+    </style>
+
+
+    <style name="Widget.App.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerMedium</item>
+
+    </style>
+
+
+    <style name="Widget.App.Button.Secondary">
+        <item name="backgroundTint">?attr/colorSecondary</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="Widget.App.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">?attr/colorSecondary</item>
+        <item name="tint">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="TextAppearance.App.CardTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.App.Accent" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">?attr/colorSecondary</item>
+    </style>
+</resources>
